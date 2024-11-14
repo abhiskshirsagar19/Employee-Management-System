@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 body {
-    background-color: #adbbda;
+  background-color: #adbbda;
+}
+
+#tasklist::-webkit-scrollbar {
+  display: none;
 }
